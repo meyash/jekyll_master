@@ -50,3 +50,10 @@
 * bundle install -- to install the new theme
 * change theme in config.yml
 * themes may not have the layouts that you are using so update your layouts
+ 
+## layouts
+* we can override already given layouts from the theme
+* eg. in layouts/page.html
+* we can create levels of layout 
+
+## variables
