@@ -106,6 +106,7 @@
 * baseurl: "put_your_custom_domain_name"
 * git checkout -b gh-pages
 * git status
+* git push all files
 
 
 
