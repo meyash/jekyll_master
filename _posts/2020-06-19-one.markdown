@@ -2,6 +2,7 @@
 layout: "post"
 title: "this will override one as title"
 date: "2017-06-21"
+permalink: "/first/post1"
 ---
 
 some content 

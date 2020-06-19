@@ -6,12 +6,14 @@
 * for 1st run only -- bundle exec jekyll serve
 * otherwise -- jekyll serve
 
-
 ## frontmatter
 * it is the info about our blogpost -- i.e main info
 * write either in yaml or json
 * changing "category" can change url of post
 * we can create our own variables as well
+
+## more styling 
+* we can create files in html instead of md directly
 
 ## organising
 * make sub directories to organise
@@ -27,7 +29,16 @@
 * 2 types of pages
 ** 1. general pages
 ** 2. posts
+* eg. donate page in project root 
+** /donate
+* eg. support page in pagesdir folder
+** /pagesdir/support
 
-## 
+## permalink
+* permanent url assigned to page of site
+* so if date and title changes url remains same always
+* eg. permalink: "put_url_here/url_here"
+* eg. using some varible in url permalink: "/:categories/:year/:month:/title" 
 
-
+## default frontmatter
+* defined in config.yml to be set as default to some pages
