@@ -42,3 +42,11 @@
 
 ## default frontmatter
 * defined in config.yml to be set as default to some pages
+
+## themes
+* many themes available
+* https://rubygems.org/search?utf8=%E2%9C%93&query=jekyll-theme
+* eg. jekyll-theme-hacker --"add it to GemFile"
+* bundle install -- to install the new theme
+* change theme in config.yml
+* themes may not have the layouts that you are using so update your layouts
