@@ -1,3 +1,29 @@
 {% for post in site.posts %}
 <li><a href="{{ post.url }}">{{post.title}}</a></li> <br>
 {% endfor %}
+
+<h3>accessing data from yml</h3>
+{{site.data.people}}
+
+<br>
+
+<h3>looping though data</h3>
+{% for person in site.data.people %}
+{{person.name}},{{person.occupation}}
+<br>
+{% endfor %}
+
+<h3>locating static files -image</h3>
+{% for file in site.static_files %}
+{{file.path}},,,,{{file.name}},,,,,{{file.basename}},,,,,{{file.extname}}<br>
+{% endfor %}
+<br>
+
+<h3>static files -image</h3>
+{% for file in site.static_files %}
+{% if file.image %}
+<img style="width: 20px;" src="{{file.path}}" alt="{{file.name}}">
+<br>
+{% endif %}
+{% endfor %}
+<br>

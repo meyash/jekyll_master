@@ -90,7 +90,13 @@
 <h3>else condition</h3>
 {% endif %}
 
+## data files
+* simple storage for our static file
+* can be json / yml / csv etc.
+* inside "_data" folder
 
-
+## static files
+* js, css, images for styling
+* we can also give frontmatter to the static files -- in config.yml
 
 

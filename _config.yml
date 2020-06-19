@@ -34,16 +34,23 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# defaults:
+#   - scope:
+#       # means this default will only appy to projects folder of the site
+#       # path: "projects"
+#       path: ""
+#       type: "posts"
+#     values:
+#       layout: "post"
+#       title: "mytitle"
+#       #values
+
+# setting frontmatter for static files
 defaults:
   - scope:
-      # means this default will only appy to projects folder of the site
-      # path: "projects"
-      path: ""
-      type: "posts"
+      path: "assets"
     values:
-      layout: "post"
-      title: "mytitle"
-      #values
+      image: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
