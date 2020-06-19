@@ -57,3 +57,14 @@
 * we can create levels of layout 
 
 ## variables
+* can be accessed using {{}}
+
+## includes
+* header and footer 
+* in "_includes" folder
+* eg. {% include header.html %}
+* eg. {% include header.html color="blue" %} --passing var to header
+
+
+
+
