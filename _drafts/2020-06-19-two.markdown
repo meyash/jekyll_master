@@ -1,0 +1,7 @@
+---
+layout: "post"
+title: "this two as title"
+date: "2017-10-22"
+---
+
+some content draft

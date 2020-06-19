@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "this will override one as title"
-date: "2017-06-21"
+date: "2017-06-22"
 ---
 
 some content 
