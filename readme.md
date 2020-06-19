@@ -99,4 +99,13 @@
 * js, css, images for styling
 * we can also give frontmatter to the static files -- in config.yml
 
+## publish on github pages
+* modify --config.yml
+* baseurl: "your_repo_name" 
+* or 
+* baseurl: "put_your_custom_domain_name"
+* git checkout -b gh-pages
+* git status
+
+
 
