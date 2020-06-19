@@ -1,3 +1,11 @@
+## install --on ubuntu
+1. sudo apt-get install ruby-full build-essential zlib1g-dev
+2. echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+3. echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+4. echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+5. source ~/.bashrc
+6. gem install jekyll bundler
+
 ## crete new site
 * jekyll new site_name
 ## move into site directory
@@ -64,6 +72,24 @@
 * in "_includes" folder
 * eg. {% include header.html %}
 * eg. {% include header.html color="blue" %} --passing var to header
+
+## looping posts
+* eg. in home.html
+{% for post in site.posts %}
+<li><a href="{{ post.url }}">{{post.title}}</a></li> <br>
+{% endfor %}
+
+## conditionals
+* eg. in post.html
+* "and" , "or" for more conditions
+{% if page.title == "this will override one as title" %}
+<h3>if condition</h3>
+{% elsif %}
+<h3>yo</h3>
+{% else %}
+<h3>else condition</h3>
+{% endif %}
+
 
 
 

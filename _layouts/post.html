@@ -1,6 +1,12 @@
 <h1>this is a post layout i have written</h1>
 {% include header.html color="blue" %}
 
+{% if page.title == "this will override one as title" %}
+<h3>if condition</h3>
+{% else %}
+<h3>else condition</h3>
+{% endif %}
+
 {{content}}
 
 {% include footer.html %}
